@@ -1,0 +1,225 @@
+.comment {
+    width: 103px;
+    height: 30px;
+    position: relative;
+    margin: 30px auto 0;
+    background: #c8f064;
+    border-radius: 5px;
+    border: 1px solid #a5d01b;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+}
+
+.wx {
+    background-image: url("../images/wx.png");
+    position: absolute;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    left: 4px;
+}
+
+.foot {
+    position: absolute;
+    background: white;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+}
+
+.foot>.main {
+    color: black;
+    line-height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 52px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 60%;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid green;
+}
+
+#send,
+#send:visited {
+    display: inline-block;
+    padding: 8px 20px 6px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 4px;
+    border: none;
+    background-color: #00AF34;
+    outline: none;
+}
+
+.comment:after {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 4px;
+    right: -14px;
+    border: solid 8px;
+    border-color: transparent transparent transparent #c8f064;
+    font-size: 0;
+}
+
+.love {
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.love span.letter {
+    display: inline-block;
+    text-align: left;
+    top: 0;
+    left: 0;
+    margin:0;
+    font-size: 5vmin;
+    text-shadow: 0 0 .25em red, 0 0 .35em red, 0 0 .45em transparent, 0 0 .55em transparent, 0 0 .65em transparent;
+}
+
+
+/* @media (min-width: 600px) {
+    .letter {
+        motion-offset: 0;
+        motion-path: path("m0, 0 c100, -150 200, -150 300, 0");
+        offset-path: path("m0, 0 c100, -150 200, -150 300, 0");
+    }
+}
+
+.letter:nth-child(1) {
+    -webkit-animation: twinkle 2.7s infinite 0.9s;
+    animation: twinkle 2.7s infinite 0.9s;
+    motion-offset: 5.55556%;
+}
+
+.letter:nth-child(2) {
+    -webkit-animation: twinkle 2.7s infinite 2.1s;
+    animation: twinkle 2.7s infinite 2.1s;
+    motion-offset: 11.11111%;
+}
+
+.letter:nth-child(3) {
+    -webkit-animation: twinkle 2.7s infinite 2.7s;
+    animation: twinkle 2.7s infinite 2.7s;
+    motion-offset: 16.66667%;
+}
+
+.letter:nth-child(4) {
+    -webkit-animation: twinkle 2.7s infinite 1.2s;
+    animation: twinkle 2.7s infinite 1.2s;
+    motion-offset: 22.22222%;
+}
+
+.letter:nth-child(5) {
+    -webkit-animation: twinkle 2.7s infinite 1.8s;
+    animation: twinkle 2.7s infinite 1.8s;
+    motion-offset: 27.77778%;
+}
+
+.letter:nth-child(6) {
+    -webkit-animation: twinkle 2.7s infinite 2.25s;
+    animation: twinkle 2.7s infinite 2.25s;
+    motion-offset: 33.33333%;
+}
+
+.letter:nth-child(7) {
+    -webkit-animation: twinkle 2.7s infinite 1.8s;
+    animation: twinkle 2.7s infinite 1.8s;
+    motion-offset: 38.88889%;
+}
+
+.letter:nth-child(8) {
+    -webkit-animation: twinkle 2.7s infinite 2.1s;
+    animation: twinkle 2.7s infinite 2.1s;
+    motion-offset: 44.44444%;
+}
+
+.letter:nth-child(9) {
+    -webkit-animation: twinkle 2.7s infinite 0.6s;
+    animation: twinkle 2.7s infinite 0.6s;
+    motion-offset: 50%;
+}
+
+.letter:nth-child(10) {
+    -webkit-animation: twinkle 2.7s infinite 0.3s;
+    animation: twinkle 2.7s infinite 0.3s;
+    motion-offset: 55.55556%;
+}
+
+.letter:nth-child(11) {
+    -webkit-animation: twinkle 2.7s infinite 1.5s;
+    animation: twinkle 2.7s infinite 1.5s;
+    motion-offset: 61.11111%;
+}
+
+.letter:nth-child(12) {
+    -webkit-animation: twinkle 2.7s infinite 1.35s;
+    animation: twinkle 2.7s infinite 1.35s;
+    motion-offset: 66.66667%;
+}
+
+.letter:nth-child(13) {
+    -webkit-animation: twinkle 2.7s infinite 0.75s;
+    animation: twinkle 2.7s infinite 0.75s;
+    motion-offset: 72.22222%;
+}
+
+.letter:nth-child(14) {
+    -webkit-animation: twinkle 2.7s infinite 2.7s;
+    animation: twinkle 2.7s infinite 2.7s;
+    motion-offset: 77.77778%;
+}
+
+.letter:nth-child(15) {
+    -webkit-animation: twinkle 2.7s infinite 0.6s;
+    animation: twinkle 2.7s infinite 0.6s;
+    motion-offset: 83.33333%;
+}
+
+.letter:nth-child(16) {
+    -webkit-animation: twinkle 2.7s infinite 0.6s;
+    animation: twinkle 2.7s infinite 0.6s;
+    motion-offset: 88.88889%;
+}
+
+.letter:nth-child(17) {
+    -webkit-animation: twinkle 2.7s infinite 0.9s;
+    animation: twinkle 2.7s infinite 0.9s;
+    motion-offset: 94.44444%;
+}
+
+.letter:nth-child(18) {
+    -webkit-animation: twinkle 2.7s infinite 1.65s;
+    animation: twinkle 2.7s infinite 1.65s;
+    motion-offset: 100%;
+} */
+
+/* .letter:empty {
+    padding: 0 .2em;
+}
+
+@-webkit-keyframes twinkle {
+    50% {
+        text-shadow: 0 0 .25em red, 0 0 .35em red, 0 0 .45em red, 0 0 .55em red, 0 0 .65em red;
+    }
+}
+
+@keyframes twinkle {
+    50% {
+        text-shadow: 0 0 .25em red, 0 0 .35em red, 0 0 .45em red, 0 0 .55em red, 0 0 .65em red;
+    }
+} */
